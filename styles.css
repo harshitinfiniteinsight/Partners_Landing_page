@@ -301,6 +301,7 @@ h3 {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-block: 1.6rem;
+  justify-content: center;
 }
 
 .trust-strip {
@@ -564,6 +565,8 @@ h3 {
 
 .certified-cta-wrap {
   margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
 }
 
 .stories-feature {

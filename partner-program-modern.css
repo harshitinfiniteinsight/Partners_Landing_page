@@ -81,7 +81,7 @@ nav a { text-decoration: none; color: #334155; font-weight: 700; }
 
 .hero { padding-top: 5.2rem; }
 .hero-grid { display: grid; gap: 2rem; }
-.hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin: 1.5rem 0; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin: 1.5rem 0; justify-content: center; }
 .hero-trust { display: flex; flex-wrap: wrap; gap: .65rem; }
 .hero-trust span {
   padding: .45rem .75rem; border-radius: 999px; border: 1px solid var(--line); font-weight: 700; color: #374151;
@@ -213,7 +213,7 @@ nav a { text-decoration: none; color: #334155; font-weight: 700; }
   padding-left: 1.75rem; position: relative; color: #344054; font-weight: 600;
 }
 .benefit-checklist li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--primary); font-weight: 900; }
-.certified-cta-wrap { margin-top: 1.25rem; }
+.certified-cta-wrap { margin-top: 1.25rem; display: flex; justify-content: center; }
 .stories-feature { display: grid; gap: 1rem; max-width: 1020px; margin: 0 auto; }
 .story-feature-video {
   position: relative; min-height: 360px; border-radius: var(--radius-lg); padding: 1.5rem; color: #fff; text-decoration: none;
